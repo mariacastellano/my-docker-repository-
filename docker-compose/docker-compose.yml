@@ -1,0 +1,7 @@
+version: '2.17.0' 
+
+services:
+  web-app:
+    image: maru/socketio-chat-app:latest 
+    ports:
+        - "8080:80"
